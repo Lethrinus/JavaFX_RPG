@@ -35,21 +35,21 @@ public class App extends Application implements components {
 		
         /*--------------- Scenes Creating Process ---------------*/
 		Scene mainScene = stageTreeController.sceneCreator1Button(welcomeText, startPlayingButton, mainLayout, 115, 165, 100, 60, 400, 350, 250);
-        Scene scene1Prologue =  stageTreeController.sceneCreator1Button(storyText1, scene1ProloguechoiceA, scene1PrologueLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene2Prologue2 = stageTreeController.sceneCreator1Button(storyText2, scene2Prologue2choiceA, scene2Prologue2Layout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene3JustEnteredKingdom = stageTreeController.sceneCreator2Button(storyText3, scene3JustEnteredKingdomchoiceA, scene3JustEnteredKingdomchoiceB, scene3JustEnteredKingdomLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
+        	Scene scene1Prologue =  stageTreeController.sceneCreator1Button(storyText1, scene1ProloguechoiceA, scene1PrologueLayout, 40, 315, 50, 25, 400, 350, 250);
+        	Scene scene2Prologue2 = stageTreeController.sceneCreator1Button(storyText2, scene2Prologue2choiceA, scene2Prologue2Layout, 40, 315, 50, 25, 400, 350, 250);
+        	Scene scene3JustEnteredKingdom = stageTreeController.sceneCreator2Button(storyText3, scene3JustEnteredKingdomchoiceA, scene3JustEnteredKingdomchoiceB, scene3JustEnteredKingdomLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
 		Scene scene4OnTheRoad =  stageTreeController.sceneCreator1Button(storyText4, scene4OnTheRoadchoiceA, scene4OnTheRoadLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene5AtTheInn = stageTreeController.sceneCreator1Button(storyText5, scene5AtTheInnchoiceA, scene5AtTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene5aTheSpear = stageTreeController.sceneCreator2Button(storyText5a, scene5aTheSpearchoiceA, scene5aTheSpearchoiceB, scene5aTheSpearLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
+        	Scene scene5AtTheInn = stageTreeController.sceneCreator1Button(storyText5, scene5AtTheInnchoiceA, scene5AtTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
+       	 	Scene scene5aTheSpear = stageTreeController.sceneCreator2Button(storyText5a, scene5aTheSpearchoiceA, scene5aTheSpearchoiceB, scene5aTheSpearLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
 		Scene scene5bBoarKilledYou = stageTreeController.sceneCreator1Button(storyTextBoarKilledYou, gameOver,  scene5BoarKilledYouLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene5cSwordAttack = stageTreeController.sceneCreator1Button(storyTextYouSword, scene5caStrikeTheBeastAgain, scene5cSwordAttackLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene5YouKilledBoar = stageTreeController.sceneCreator2Button(storyTextYouKilledBoar, scene5baButton, scene5bbButton, scene5bbKilledBoarLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
-        Scene scene5dInsideTheInn = stageTreeController.sceneCreator1Button(storyText5dText, scene5dButton, scene5dInsideTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene5eNothingMoreInTheInn = stageTreeController.sceneCreator1Button(storyText5eText, scene5eButton, scene5eNothingMoreInTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
-        Scene scene6WhoGoesThere = stageTreeController.sceneCreator3Button(storyText6Text, scene61Button, scene62Button, scene63Button, scene6WhoGoesThereLayout, 10, 315, 10, 245, 10, 195, 50 , 25, 400, 350, 250);
+        	Scene scene5cSwordAttack = stageTreeController.sceneCreator1Button(storyTextYouSword, scene5caStrikeTheBeastAgain, scene5cSwordAttackLayout, 40, 315, 50, 25, 400, 350, 250);
+        	Scene scene5YouKilledBoar = stageTreeController.sceneCreator2Button(storyTextYouKilledBoar, scene5baButton, scene5bbButton, scene5bbKilledBoarLayout, 10, 315, 10, 275, 50, 25, 400, 350, 250);
+       	 	Scene scene5dInsideTheInn = stageTreeController.sceneCreator1Button(storyText5dText, scene5dButton, scene5dInsideTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
+        	Scene scene5eNothingMoreInTheInn = stageTreeController.sceneCreator1Button(storyText5eText, scene5eButton, scene5eNothingMoreInTheInnLayout, 40, 315, 50, 25, 400, 350, 250);
+        	Scene scene6WhoGoesThere = stageTreeController.sceneCreator3Button(storyText6Text, scene61Button, scene62Button, scene63Button, scene6WhoGoesThereLayout, 10, 315, 10, 245, 10, 195, 50 , 25, 400, 350, 250);
 		Scene scene6bFoundSomeAllies = stageTreeController.sceneCreator1Button(storyText6b, scene6bchoiceA, scene6bFoundSomeAlliesLayout, 40, 250, 40, 25, 400, 350, 250);
-        Scene scene6cShouldveToldThem = stageTreeController.sceneCreator2Button(storyText6c, scene6cChoiceA, scene6cChoiceB, scene6cShouldveToldThemLayout,  10, 315, 10, 275, 50, 25, 400, 350, 250);
-        Scene scene6dOldTimesSake = stageTreeController.sceneCreator1Button(storyText6d, scene6dchoiceA, scene6dOldTimesSakeLayout,  40, 315, 50, 25, 400, 350, 250);
+       		Scene scene6cShouldveToldThem = stageTreeController.sceneCreator2Button(storyText6c, scene6cChoiceA, scene6cChoiceB, scene6cShouldveToldThemLayout,  10, 315, 10, 275, 50, 25, 400, 350, 250);
+       		Scene scene6dOldTimesSake = stageTreeController.sceneCreator1Button(storyText6d, scene6dchoiceA, scene6dOldTimesSakeLayout,  40, 315, 50, 25, 400, 350, 250);
 		Scene scene6eBadNews = stageTreeController.sceneCreator1Button(storyText6e, scene6eChoiceA, scene6eBadNewsLayout,  40, 270, 50, 25, 400, 350, 250);
 		Scene scene6fGlimpseOfHope = stageTreeController.sceneCreator1Button(storyText6f, scene6fChoiceA, scene6fGlimpseOfHopeLayout, 40, 270, 50, 25, 400, 350, 250);
 		Scene scene6gEndOfLongTalks = stageTreeController.sceneCreator2Button(storyText6g, scene6gChoiceA, scene6gChoiceB, scene6gEndOfLongTalksLayout, 10, 180, 10, 260, 50, 25, 400, 350, 250);
@@ -86,7 +86,7 @@ public class App extends Application implements components {
 		pierceDamageText.setLayoutY(105);
 				
 		tree myTree = new tree();
-		treeNode nodeRoot = new treeNode(mainScene);
+	treeNode nodeRoot = new treeNode(mainScene);
         treeNode nodeScene1 = new treeNode(scene1Prologue);
         treeNode nodeScene2 = new treeNode(scene2Prologue2);
         treeNode nodeScene3 = new treeNode(scene3JustEnteredKingdom);
@@ -119,7 +119,7 @@ public class App extends Application implements components {
         treeNode nodeScene8z = new treeNode(scene8zDeathInDarkness);
         treeNode nodeScene8d = new treeNode(scene8dDefenciveStance);
         treeNode nodeScene8e = new treeNode(scene8eTheEnd);
-		treeNode nodeSceneCredits = new treeNode(sceneCredits);
+	treeNode nodeSceneCredits = new treeNode(sceneCredits);
 		
 
 			myTree.addChild(null, nodeRoot);  
