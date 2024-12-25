@@ -8,7 +8,7 @@ The objective of this project is to create an interactive text-based adventure g
 
 ## **Key Components**
 Tree Data Structure:
-tree.java and treeNode.java: These files are responsible for defining the tree data structure used to manage the game scenes. 
+tree.java and treeNode.java: These files are responsible  for defining the tree data structure used to manage the game scenes. 
 Each node in the tree represents a scene in the adventure game, and the tree structure allows for branching storylines based on player choices.
 
 **Tree Class:**
