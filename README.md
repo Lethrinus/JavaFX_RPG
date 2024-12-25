@@ -1,12 +1,12 @@
 **If you want to play the game in your device you need to install JavaFX componenents. And customize the correct buildpath according to project files.**
 
 
-**Project Summary: Exiled Knight Game using JavaFX**
+## **Project Summary: Exiled Knight Game using JavaFX**
 
-**Objective**
+## **Objective**
 The objective of this project is to create an interactive text-based adventure game called "Exiled Knight" using JavaFX for the graphical user interface (GUI) and leveraging tree and linked list data structures for managing the game's scenes and inventory.
 
-**Key Components**
+## **Key Components**
 Tree Data Structure:
 tree.java and treeNode.java: These files are responsible for defining the tree data structure used to manage the game scenes. 
 Each node in the tree represents a scene in the adventure game, and the tree structure allows for branching storylines based on player choices.
@@ -37,7 +37,7 @@ It handles the GUI elements and ensures that each scene is properly displayed ba
 **Launcher Class:**
 launch.java: The entry point of the application. It invokes the main method of the App class to start the JavaFX application.
 
-**Game Flow**
+## **Game Flow**
 
 **Initialization:**
 The App class initializes the main stage and various secondary stages (inventory, stats).
